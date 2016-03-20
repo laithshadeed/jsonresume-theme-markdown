@@ -33,11 +33,11 @@
 ### {{position}}{{#if company}}, {{#if website}}[{{company}}]({{{website}}}){{^}}{{company}}{{/if}}{{/if}}
 ##### {{startDate}} {{#if endDate}}- {{endDate}}{{/if}}
 
+{{summary}}
 {{#each highlights}}
 * {{.}}
 {{/each}}
 
-{{summary}}
 
 {{/each}}
 {{/if}}
